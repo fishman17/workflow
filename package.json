@@ -1,0 +1,23 @@
+{
+  "name": "QS_WF",
+  "version": "1.0.0",
+  "description": "与具体开发细节无关，与开发流程及工艺有关。\r WF Work Flow\r 企业级开发，标准的流程及要求\r - babel\r  > js 面向未来编程 presets\r - gulp\r  > 最简单的任务，安排系统\r     任务自动化\r - webpack\r  > 企业级的前端标准打包套件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsafafaf/QS_WF.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fsafafaf/QS_WF/issues"
+  },
+  "homepage": "https://github.com/fsafafaf/QS_WF#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
