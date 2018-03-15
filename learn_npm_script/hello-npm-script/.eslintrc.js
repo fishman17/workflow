@@ -13,7 +13,7 @@ module.exports = {
             "error",
             "windows"
         ],
-        "quotes": [
+        "quotes": [     
             "error",
             "double"
         ],

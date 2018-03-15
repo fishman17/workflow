@@ -1,0 +1,23 @@
+{
+  "name": "live-reload",
+  "version": "1.0.0",
+  "description": "browser-sync \r live-server\r 简单一句，文件改变自动刷新浏览器 F5\r live 活的 => static\r reload 自动刷新\r 重载",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm-run-all --parallel client:*",
+    "client:reload-server": "livereload client/",
+    "client:static-server": "http-server client/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "'Daimuyang' <'734583898@qq.com'>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "http-server": "^0.10.0",
+    "livereload": "^0.6.3",
+    "webpack": "^3.10.0"
+  }
+}
